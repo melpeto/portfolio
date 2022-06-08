@@ -225,6 +225,11 @@ html {
   font-size: 125%;
 }
 
+body {
+  font-family: "Commissioner", sans-serif;
+  text-align: center;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1200px;
@@ -250,4 +255,76 @@ ul {
 
 li {
   list-style-type: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fraunces", serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+header {
+  background-color: rgba(255, 200, 166, 0.75);
+  height: 100vh;
+  color: rgb(0, 0, 73);
+}
+header img {
+  opacity: 60%;
+  border-radius: 50%;
+}
+
+.topNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.topNav li {
+  padding: 10px 15px;
+  margin: 10px 30px;
+}
+
+.titleFlexParent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20vh;
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.titleText {
+  z-index: 10;
+  text-align: left;
+}
+
+.titleImg {
+  position: absolute;
+  top: 40%;
+  right: 30%;
+}
+
+.about img {
+  border-radius: 50%;
 }

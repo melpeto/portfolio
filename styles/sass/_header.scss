@@ -1,0 +1,44 @@
+header {
+    background-color: rgb(255, 200, 166, 0.75);
+    height: 100vh;
+    color: rgb(0, 0, 73);
+    img {
+        opacity: 60%;
+        border-radius: 50%;
+    }
+}
+
+.topNav {
+    display: flex;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    justify-content: center;
+    li {
+        padding: 10px 15px;
+        margin: 10px 30px;
+    }
+}
+
+.titleFlexParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.titleText {
+    z-index: 10;
+    text-align: left;
+}
+
+.titleImg {
+    position: absolute;
+    // right: 35px;
+    top: 40%;
+    right: 30%;
+}
