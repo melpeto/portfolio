@@ -20,6 +20,8 @@ img {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 20px;
+    border: 5px solid rgb(138, 167, 183);
 }
 
 a {
@@ -50,9 +52,17 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
-    padding: 30px auto;
 }
 
 h3 {
     font-size: 1.5rem;
+}
+
+h2::before {
+    content: "";
+    background-image: url(./assets/lilLeavesBlue.svg);
+    background-size: cover;
+    display: inline-block;
+    height: 75px;
+    width: 75px;
 }

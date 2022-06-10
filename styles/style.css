@@ -240,6 +240,8 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 20px;
+  border: 5px solid rgb(138, 167, 183);
 }
 
 a {
@@ -270,11 +272,19 @@ h1 {
 
 h2 {
   font-size: 2.5rem;
-  padding: 30px auto;
 }
 
 h3 {
   font-size: 1.5rem;
+}
+
+h2::before {
+  content: "";
+  background-image: url(./assets/lilLeavesBlue.svg);
+  background-size: cover;
+  display: inline-block;
+  height: 75px;
+  width: 75px;
 }
 
 header {
@@ -287,7 +297,7 @@ header nav {
   padding-top: 20px;
 }
 header img {
-  opacity: 60%;
+  opacity: 80%;
 }
 
 .topNav {
@@ -365,11 +375,6 @@ h1 {
   margin-right: 70px;
 }
 
-.aboutImg img {
-  border-radius: 20px;
-  border: 5px solid rgb(138, 167, 183);
-}
-
 .aboutText {
   max-width: 40%;
 }
@@ -395,7 +400,7 @@ h1 {
       align-content: space-between;
 }
 .skills ul li {
-  width: calc(15% - 20px);
+  min-width: calc(15% - 20px);
   margin: 5px 10px;
   padding: 10px;
 }
@@ -413,15 +418,16 @@ i,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 60px 0;
+  padding-bottom: 60px;
+  border-bottom: 2px solid rgb(138, 167, 183);
 }
-.project div {
-  max-width: 50%;
-}
-.project a {
-  background-color: rgba(237, 169, 129, 0.5);
-  padding: 20px;
-  width: 190px;
-  max-width: 50%;
+
+.mockup {
+  max-width: 40%;
 }
 
 .projectTwo {
@@ -429,6 +435,36 @@ i,
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.projectInfo {
+  margin-left: 60px;
+  text-align: left;
+}
+
+.projectInfoReverse {
+  margin-right: 60px;
+  text-align: right;
+}
+
+.devicon-github-original {
+  font-size: 1.2rem;
+}
+
+.github::after {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 900;
+  content: "\f09b";
+  margin-left: 8px;
+}
+
+.project a {
+  background-color: rgba(237, 169, 129, 0.5);
+  padding: 20px;
+  width: 190px;
+  height: 70px;
+  max-width: 50%;
+  text-align: center;
 }
 
 .contact {

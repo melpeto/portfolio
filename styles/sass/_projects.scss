@@ -6,17 +6,50 @@
 
 .project {
     display: flex;
-    div {
-        max-width: 50%;
-    }
-    a {
-        background-color: rgb(237, 169, 129, 50%);
-        padding: 20px;
-        width: 190px;
-        max-width: 50%; 
-    }
+    align-items: center;
+    margin: 60px 0;
+    padding-bottom: 60px;
+    border-bottom: 2px solid rgb(138, 167, 183);
+    // div {
+    //     max-width: 50%;
+    // }
 }
+
+.mockup {
+    max-width: 40%;
+}
+
 
 .projectTwo {
     flex-direction: row-reverse;
+}
+
+.projectInfo {
+    margin-left: 60px;
+    text-align: left;
+}
+
+.projectInfoReverse {
+    margin-right: 60px;
+    text-align: right;
+}
+
+.devicon-github-original {
+    font-size:1.2rem;
+}
+
+.github::after {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 900;
+    content: "\f09b";
+    margin-left: 8px;
+}
+
+.project a {
+    background-color: rgb(237, 169, 129, 50%);
+    padding: 20px;
+    width: 190px;
+    height: 70px;
+    max-width: 50%;
+    text-align: center;
 }
