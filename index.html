@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Commissioner&family=Fraunces:wght@300;400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <script src="https://kit.fontawesome.com/c79ccdb0d2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 
@@ -20,18 +24,20 @@
                 <ul class="topNav">
                     <li><a href="#about">About</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Get in Touch</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
             <section class="titleFlexParent">
+                <div class="titleImg"><img src="./styles/assets/fernLeafBigBlue.svg" alt=""></div>
+                <!-- <div class="titleImg">
+                    <img src="./styles/assets/fashun.jpg" alt="a little girl sipping a drink on a beach">
+                </div> -->
                 <div class="titleText">
                     <h1>Melanie Peto</h1>
                     <h3>Web Developer</h3>
                 </div>
-                <div class="titleImg">
-                    <img src="./styles/assets/fashun.jpg" alt="a little girl sipping a drink on a beach">
-                </div>
+
             </section>
         </div>
     </header>
@@ -39,10 +45,10 @@
     <main>
         <section class="about" id="about">
             <div class="wrapper aboutFlexParent">
-                <div>
+                <div class="aboutImg">
                     <img src="./styles/assets/melaniePortraitCopy.jpg" alt="a face-on portrait of Mel">
                 </div>
-                <div>
+                <div class="aboutText">
                     <h2>About Me</h2>
                     <p>Cheesecake apple pie muffin pie oat cake chocolate cake. Bonbon wafer tiramisu croissant ice cream powder gingerbread macaroon. Macaroon lemon drops lemon drops icing chocolate cake chocolate cake. Toffee lemon drops sweet roll cotton candy gingerbread biscuit biscuit ice cream ice cream. Tart candy cookie cake biscuit. Gingerbread soufflé croissant apple pie tiramisu dragée croissant I love.</p>
                 </div>
@@ -54,54 +60,56 @@
                 <h2>Skills</h2>
                 <ul>
                     <li>
-                        <i>HTML5 icon</i>
+                        <i class="devicon-html5-plain-wordmark"></i>
                         <p>HTML5</p>
                     </li>
                     <li>
-                        <i>CSS icon</i>
+                        <i class="devicon-css3-plain-wordmark"></i>
                         <p>CSS3</p>
                     </li>
                     <li>
-                        <i>Js icon</i>
+                        <i class="devicon-javascript-plain"></i>
                         <p>Javascript (ES6)</p>
                     </li>
                     <li>
-                        <i>sass icon</i>
+                        <i class="devicon-sass-original"></i>
                         <p>SASS</p>
                     </li>
                     <li>
-                        <i>git icon</i>
+                        <i class="devicon-git-plain"></i>
                         <p>Github/Git</p>
                     </li>
                     <li>
-                        <i>firebase icon</i>
+                        <i class="devicon-firebase-plain"></i>
                         <p>Firebase</p>
                     </li>
                     <li>
-                        <i>React icon</i>
+                        <i class="devicon-react-original"></i>
                         <p>React</p>
                     </li>
                     <li>
-                        <i>icon</i>
+                        <i class="fa-solid fa-cloud-meatball"></i>
                         <p>REST APIs</p>
                     </li>
                     <li>
-                        <i>icon</i>
-                        <p>Responsive Web Development</p>
+                        <i><span class="material-symbols-outlined">
+                            devices
+                        </span></i>
+                        <p>Responsive Web<span class="responsive">Development</span></p>
                     </li>
                     <li>
-                        <i>icon</i>
+                        <i class="fa-solid fa-universal-access"></i>
                         <p>Accessibility</p>
                     </li>
                     <li>
-                        <i>jquery icon</i>
+                        <i class="devicon-jquery-plain"></i>
                         <p>jQuery</p>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section class="projects" id="projects">
+        <section class="projects wrapper" id="projects">
             <h2>Projects</h2>
             <section class="project projectOne">
                 <div><img src="./styles/assets/projectPlaceholderOne.jpg" alt=""></div>

@@ -11,7 +11,7 @@ body {
 }
 
 .wrapper {
-    width: 90%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -41,10 +41,16 @@ h1,
 h2,
 h3 {
     font-family: 'Fraunces', serif;
+    color: rgb(0, 0, 73);
 }
 
 h1 {
     font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    padding: 30px auto;
 }
 
 h3 {

@@ -1,0 +1,22 @@
+// .projects {
+//     a {
+//         background-color: ;
+//     }
+// }
+
+.project {
+    display: flex;
+    div {
+        max-width: 50%;
+    }
+    a {
+        background-color: rgb(237, 169, 129, 50%);
+        padding: 20px;
+        width: 190px;
+        max-width: 50%; 
+    }
+}
+
+.projectTwo {
+    flex-direction: row-reverse;
+}

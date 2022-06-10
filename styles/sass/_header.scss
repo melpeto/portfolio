@@ -1,6 +1,6 @@
 header {
-    background-color: rgb(255, 200, 166, 0.75);
-    height: 100vh;
+    background-color: rgb(237, 169, 129, 30%);
+    min-height: 900px;
     color: rgb(0, 0, 73);
     img {
         opacity: 60%;
@@ -15,7 +15,7 @@ header {
     justify-content: center;
     li {
         padding: 10px 15px;
-        margin: 10px 30px;
+        margin: 10px 40px;
     }
 }
 
@@ -23,7 +23,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20vh;
+    margin-top: 200px;
+    margin-bottom: 200px;
     position: relative;
 }
 
@@ -38,7 +39,20 @@ h1 {
 
 .titleImg {
     position: absolute;
+    max-width: 300px;
+    opacity: 80%;
+    left: 2.5%;
+    top: -50px;
     // right: 35px;
-    top: 40%;
-    right: 30%;
+    // top: 40%;
+    // right: 30%;
 }
+
+// h1 {
+//     &::before {
+//         content: "";
+//         background-image: url(./assets/leafStem.svg.svg);
+//         background-size: 800px 800px;
+//         z-index: 10;
+//     }
+// }

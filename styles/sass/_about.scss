@@ -1,5 +1,24 @@
 .about {
-    img {
-        border-radius: 50%;
-    }
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.aboutFlexParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg {
+    max-width: calc(30% - 50px);
+    margin-right: 70px;
+}
+
+.aboutImg img {
+    border-radius: 20px;
+    border: 5px solid rgb(138, 167, 183);
+}
+
+.aboutText {
+    max-width: 40%;
 }
