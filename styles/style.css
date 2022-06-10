@@ -279,12 +279,15 @@ h3 {
 
 header {
   background-color: rgba(237, 169, 129, 0.3);
-  min-height: 900px;
+  min-height: 100vh;
   color: rgb(0, 0, 73);
+  position: relative;
+}
+header nav {
+  padding-top: 20px;
 }
 header img {
   opacity: 60%;
-  border-radius: 50%;
 }
 
 .topNav {
@@ -332,6 +335,12 @@ h1 {
   opacity: 80%;
   left: 2.5%;
   top: -50px;
+}
+
+.fa-chevron-down {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 20px;
 }
 
 .about {
