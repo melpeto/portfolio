@@ -346,6 +346,9 @@ h1 {
   left: 2.5%;
   top: -50px;
 }
+.titleImg img {
+  border: none;
+}
 
 .fa-chevron-down {
   font-size: 2rem;
@@ -429,6 +432,9 @@ i,
   padding-bottom: 60px;
   border-bottom: 2px solid rgb(138, 167, 183);
 }
+.project span {
+  font-style: italic;
+}
 
 .mockup {
   max-width: 40%;
@@ -468,6 +474,8 @@ i,
   width: 160px;
   text-align: center;
   margin-top: 15px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .live {
@@ -491,6 +499,8 @@ i,
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .contact ul li {
   padding: 10px;
@@ -498,10 +508,13 @@ i,
 }
 .contact i {
   font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
 }
 
 footer {
   background-color: rgba(237, 169, 129, 0.3);
+  border-top: 2px solid rgb(138, 167, 183);
 }
 footer p {
   margin: 0;

@@ -9,8 +9,21 @@ portfolioApp.scrollFromHeader = function() {
     })
 }
 
+//would like to change the picture on hover, but the replacement img is a different size, so need to fix that first
+
+// portfolioApp.changeAboutPic = function() {
+//     const aboutPicElement = document.querySelector('.aboutPicture');
+//     aboutPicElement.addEventListener('mouseenter', function (event) {
+//         event.target.src="./styles/assets/fashun.jpg";
+//     })
+//     aboutPicElement.addEventListener('mouseout', function (event) {
+//         event.target.src = "./styles/assets/melaniePortraitCopy.jpg";
+//     })
+// }
+
 portfolioApp.init = () => {
     portfolioApp.scrollFromHeader();
+    // portfolioApp.changeAboutPic();
 }
 
 portfolioApp.init();
