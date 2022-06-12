@@ -1,6 +1,5 @@
 header {
     background-color: $primary;
-    // min-height: 900px;
     min-height: 100vh;
     color: $quaternary;
     position: relative;
@@ -47,19 +46,7 @@ h1 {
     opacity: 80%;
     left: 2.5%;
     top: -50px;
-    // right: 35px;
-    // top: 40%;
-    // right: 30%;
 }
-
-// h1 {
-//     &::before {
-//         content: "";
-//         background-image: url(./assets/leafStem.svg.svg);
-//         background-size: 800px 800px;
-//         z-index: 10;
-//     }
-// }
 
 .fa-chevron-down {
     font-size: 2rem;

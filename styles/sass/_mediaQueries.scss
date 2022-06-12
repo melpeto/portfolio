@@ -23,6 +23,9 @@
             margin-right: 0;
             margin-left: 0;
         }
+        .projectInfoReverse {
+            text-align: left;
+        }
     }
 }
 
@@ -32,9 +35,6 @@
         flex-direction: column;
         align-items: flex-end;
     }
-    // compress topNav
-    //decrease margins
-    //decrease size of skills logos? or at 480
 
     .titleFlexParent {
         margin: 100px 20px;
@@ -44,10 +44,15 @@
             }
         }
     }
+
+    .project a {
+        display: inline-block;
+    }
+
 }
 
 @media (max-width: 480px) {
-    //size down header font
-    //decrease margins
-    
+    .project a {
+        font-size: 0.8rem;
+    }
 }
