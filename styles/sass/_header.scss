@@ -1,8 +1,8 @@
 header {
-    background-color: rgb(237, 169, 129, 30%);
+    background-color: $primary;
     // min-height: 900px;
     min-height: 100vh;
-    color: rgb(0, 0, 73);
+    color: $quaternary;
     position: relative;
     nav {
         padding-top: 20px;

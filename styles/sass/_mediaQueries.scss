@@ -1,0 +1,53 @@
+@media (max-width: 940px) {
+
+    .wrapper {
+        width: 95%;
+    }
+
+    .aboutImg {
+        max-width: 40%;
+    }
+        
+    .aboutText {
+        max-width: 100%;
+    }
+    
+    .project {
+        flex-direction: column;
+        .mockup {
+            max-width: 70%;
+        }
+        .projectInfo,
+        .projectInfoReverse {
+            max-width: 70%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .topNav {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    // compress topNav
+    //decrease margins
+    //decrease size of skills logos? or at 480
+
+    .titleFlexParent {
+        margin: 100px 20px;
+        .titleText {
+            h1 {
+                font-size: 4rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    //size down header font
+    //decrease margins
+    
+}

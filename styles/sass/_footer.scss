@@ -1,3 +1,7 @@
 footer {
-    background-color: rgb(237, 169, 129, 30%);
+    background-color: $primary;
+    p {
+        margin: 0;
+        padding: 30px;
+    }
 }

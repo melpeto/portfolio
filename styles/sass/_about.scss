@@ -7,11 +7,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .aboutImg {
-    max-width: calc(30% - 50px);
-    margin-right: 70px;
+    max-width: calc(35% - 70px);
+    min-width: 225px;
+    margin: 0 35px;
 }
 
 //just put this on all the images? in _base.scss
@@ -21,5 +23,6 @@
 // }
 
 .aboutText {
-    max-width: 40%;
+    max-width: calc(65% - 70px);
+    margin: 0 35px;
 }

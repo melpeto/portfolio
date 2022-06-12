@@ -1,15 +1,9 @@
-// .projects {
-//     a {
-//         background-color: ;
-//     }
-// }
-
 .project {
     display: flex;
     align-items: center;
     margin: 60px 0;
     padding-bottom: 60px;
-    border-bottom: 2px solid rgb(138, 167, 183);
+    border-bottom: 2px solid $tertiary;
     // div {
     //     max-width: 50%;
     // }
@@ -46,7 +40,7 @@
 }
 
 .project a {
-    background-color: rgb(237, 169, 129, 50%);
+    background-color: $primary;
     padding: 20px;
     width: 190px;
     height: 70px;
