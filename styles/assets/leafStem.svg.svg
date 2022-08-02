@@ -8,8 +8,7 @@
    version="1.1"
    id="svg20843"
    inkscape:version="1.2 (dc2aeda, 2022-05-15)"
-   sodipodi:docname="Documents.svg"
-   inkscape:dataloss="true"
+   sodipodi:docname="leafStem.svg.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,15 +24,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.754102"
-     inkscape:cx="283.6209"
-     inkscape:cy="303.00404"
+     inkscape:zoom="0.63517817"
+     inkscape:cx="216.47469"
+     inkscape:cy="561.25984"
      inkscape:window-width="1752"
      inkscape:window-height="933"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer1">
+     inkscape:current-layer="layer14">
     <inkscape:grid
        type="xygrid"
        id="grid29544" />
@@ -221,12 +220,11 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     sodipodi:insensitive="true"
      style="display:inline">
     <g
        id="path21222"
        style="display:inline"
-       transform="matrix(0.98726645,-0.02840577,0.02876024,0.99958634,-1.5630341,2.0653823)">
+       transform="matrix(5.5654884,-0.12445417,0.16212927,4.3794863,-314.68999,-218.01865)">
       <path
          style="color:#000000;fill:#89a02c;stroke-width:4.415;-inkscape-stroke:none"
          d="m 60.54235,97.825911 c 0.769049,-1.467041 1.454699,-3.065984 2.307145,-4.401121 3.648605,-5.714608 7.485848,-11.091588 11.180775,-16.72426 8.221492,-12.533113 -4.044461,5.185191 5.679123,-8.508832 0.542272,-0.7637 1.070155,-1.555057 1.597253,-2.347264 0.611564,-0.919158 0.137177,-0.444601 1.064835,-1.467041 0.110065,-0.121309 0.23663,-0.195604 0.354945,-0.293406 0.118317,-0.0978 0.236631,-0.195608 0.354945,-0.29341"
@@ -381,11 +379,10 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="Layer 8"
-     sodipodi:insensitive="true"
-     style="display:none">
+     style="display:inline">
     <g
        id="g29507"
-       transform="matrix(0.47793955,0.01155172,0.05114136,0.41651841,62.647378,32.256103)"
+       transform="matrix(2.6942747,0.05061154,0.2882977,1.8248916,47.281489,-85.744089)"
        style="display:inline">
       <path
          id="path29503"
@@ -402,7 +399,7 @@
     </g>
     <g
        id="g29493"
-       transform="matrix(0.51653493,0.42740006,-0.34665849,0.45803227,94.590672,17.848499)"
+       transform="matrix(2.9118473,1.8725673,-1.9542077,2.0067762,227.35449,-148.86811)"
        style="display:inline">
       <path
          id="path29489"

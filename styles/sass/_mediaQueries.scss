@@ -7,22 +7,25 @@
     .aboutImg {
         max-width: 40%;
     }
-        
+
     .aboutText {
         max-width: 100%;
     }
-    
+
     .project {
         flex-direction: column;
+
         .mockup {
             max-width: 70%;
         }
+
         .projectInfo,
         .projectInfoReverse {
             max-width: 70%;
             margin-right: 0;
             margin-left: 0;
         }
+
         .projectInfoReverse {
             text-align: left;
         }
@@ -38,6 +41,7 @@
 
     .titleFlexParent {
         margin: 100px 20px;
+
         .titleText {
             h1 {
                 font-size: 4rem;
@@ -52,7 +56,7 @@
 }
 
 @media (max-width: 480px) {
-    .project a {
+    .projLink {
         font-size: 0.8rem;
     }
 }

@@ -262,7 +262,7 @@ li {
 h1,
 h2,
 h3 {
-  font-family: "Fraunces", serif;
+  font-family: "Noto Serif", serif;
   color: rgb(0, 0, 73);
 }
 
@@ -361,8 +361,11 @@ h1 {
 }
 
 .about {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url(../styles/assets/B-kiwihug-zGZYQQVmXw0-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .aboutFlexParent {
@@ -388,6 +391,11 @@ h1 {
 .aboutText {
   max-width: calc(65% - 70px);
   margin: 0 35px;
+}
+
+.aboutText p {
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .skills {
@@ -441,7 +449,7 @@ i,
   max-width: 40%;
 }
 
-.projectTwo {
+.projectReverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
@@ -458,6 +466,11 @@ i,
   text-align: right;
 }
 
+.projectInfo p,
+.projectInfoReverse p {
+  line-height: 1.5;
+}
+
 .devicon-github-original {
   font-size: 1.2rem;
 }
@@ -469,7 +482,7 @@ i,
   margin-left: 8px;
 }
 
-.project a {
+.projLink {
   background-color: rgba(249, 209, 210, 0.6);
   padding: 15px;
   width: 160px;
@@ -526,15 +539,12 @@ footer p {
   .wrapper {
     width: 95%;
   }
-
   .aboutImg {
     max-width: 40%;
   }
-
   .aboutText {
     max-width: 100%;
   }
-
   .project {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -564,20 +574,18 @@ footer p {
         -ms-flex-align: end;
             align-items: flex-end;
   }
-
   .titleFlexParent {
     margin: 100px 20px;
   }
   .titleFlexParent .titleText h1 {
     font-size: 4rem;
   }
-
   .project a {
     display: inline-block;
   }
 }
 @media (max-width: 480px) {
-  .project a {
+  .projLink {
     font-size: 0.8rem;
   }
 }

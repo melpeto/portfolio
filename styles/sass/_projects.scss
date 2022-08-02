@@ -10,7 +10,7 @@
     max-width: 40%;
 }
 
-.projectTwo {
+.projectReverse {
     flex-direction: row-reverse;
 }
 
@@ -24,8 +24,13 @@
     text-align: right;
 }
 
+.projectInfo p,
+.projectInfoReverse p {
+    line-height: 1.5;
+}
+
 .devicon-github-original {
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 .github::after {
@@ -35,7 +40,7 @@
     margin-left: 8px;
 }
 
-.project a {
+.projLink {
     background-color: $primaryOpaque;
     padding: 15px;
     width: 160px;
