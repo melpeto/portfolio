@@ -3,9 +3,11 @@ header {
     min-height: 100vh;
     color: $quaternary;
     position: relative;
+
     nav {
         padding-top: 20px;
     }
+
     img {
         opacity: 80%;
     }
@@ -16,6 +18,7 @@ header {
     font-size: 1.2rem;
     text-transform: uppercase;
     justify-content: center;
+
     li {
         padding: 10px 15px;
         margin: 10px 40px;
@@ -46,13 +49,38 @@ h1 {
     opacity: 80%;
     left: 2.5%;
     top: -50px;
+
     img {
         border: none;
     }
 }
 
 .fa-chevron-down {
-    font-size: 2rem;
+    font-size: 2.2rem;
+    color: $tertiary;
     position: absolute;
     bottom: 20px;
+    animation: bounce 2s linear 1s 10;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(8px);
+    }
+
+    50% {
+        transform: translateY(-4px);
+    }
+
+    75% {
+        transform: translateY(4px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }

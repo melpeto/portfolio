@@ -1,5 +1,8 @@
 .contact {
     background-color: $primary;
+    div.wrapper {
+        border-bottom: 2px solid $tertiary;
+    }
     p {
         margin-bottom: 0;
         padding: 30px;

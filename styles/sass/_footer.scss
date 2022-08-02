@@ -1,8 +1,14 @@
 footer {
     background-color: $primary;
-    border-top: 2px solid $tertiary;
+    // border-top: 2px solid $tertiary;
     p {
         margin: 0;
         padding: 30px;
     }
+}
+
+footer span.footnote p {
+    font-size: 0.8rem;
+    padding-top: 0;
+    padding-bottom: 10px;
 }
